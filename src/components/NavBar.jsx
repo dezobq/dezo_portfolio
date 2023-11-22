@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import logo from '../assets/img/logo-dezo.svg'
+import logo from '../assets/img/dezo-logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
@@ -91,7 +91,7 @@ const NavBar = () => {
               </a>
             </div>
 
-            <button className="vvd">
+            <button className="vvd" href="contact">
               <span>Contact Me</span>
             </button>
           </span>
