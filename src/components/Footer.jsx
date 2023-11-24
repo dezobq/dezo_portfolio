@@ -40,11 +40,12 @@ const Footer = () => {
               </a>
             </div>
             <p>Copyright 2023. All Rights Reserved</p>
-//só amanha
           </Col>
           </Row>
       </Container>
+      {/* amanha é hoje */}
     </footer >
+
   ) 
 }
 
