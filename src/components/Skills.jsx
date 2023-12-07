@@ -100,9 +100,7 @@ const Skills = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
               quod, voluptate, voluptatum, quibusdam, amet quas similique
-              voluptas voluptatibus nesciunt magni voluptatem. Quisquam quod,
-              voluptate, voluptatum, quibusdam, amet quas similique voluptas
-              voluptatibus nesciunt magni voluptatem.
+             
             </p>
 
             {/*  {techSkills.map(({ id, skill, img }) => (
