@@ -16,8 +16,8 @@ const skillTechs = [
   },
   {
     id: '3',
-    skill: 'React',
-    img: '/skills/react.svg'
+    skill: 'MongoDB',
+    img: '/skills/mongoDB.svg'
   },
   {
     id: '4',
@@ -31,12 +31,12 @@ const skillTechs = [
   },
   {
     id: '6',
-    skill: 'javaScript',
+    skill: 'JavaScript',
     img: '/skills/js.svg'
   },
   {
     id: '7',
-    skill: 'express',
+    skill: 'Express',
     img: '/skills/expressJS.svg'
   },
   {
@@ -58,7 +58,7 @@ const skillTechs = [
     id: '11',
     skill: 'Tailwind',
     img: '/skills/tailwind.svg'
-  },
+  }
 ]
 
 const responsive = {
@@ -90,23 +90,19 @@ const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <h3>
-                A full-stack web developer with passion for the newest techs
+                A full-stack web developer with passion for the newest techs.
               </h3>
               <p>
                 I have maintained, developed and launched multiple projects from
                 scratch, handling the development of their back-end and
                 front-end codebases.
-                <br />
-                Lately, I find myself increasingly reliant on low-code/no-code
-                tools like Plasmic and Xano. They facilitate high-quality
-                project delivery with immense flexibility, all at a
-                significantly reduced cost.
               </p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
                 autoPlay
+                arrows={false}
               >
                 {skillTechs.map(({ id, skill, img }) => (
                   <Techs key={id} skill={skill} srcImg={img} />

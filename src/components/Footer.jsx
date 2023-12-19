@@ -13,9 +13,6 @@ const Footer = () => {
         <Row className='align-items-center'>
           
           <Col sm={6}> 
-            <img src={logo} alt="logo" />
-          </Col>
-          <Col sm={6} className='text-center text-sm-end'>
           <div className="social-icon">
               <a
                 href="https://github.com/dezobq"
@@ -39,11 +36,14 @@ const Footer = () => {
                 <img src={navIcon3} alt="" />
               </a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+          </Col>
+          <Col sm={6} className='text-center text-sm-end'>
+         
+            <p>&copy; Copyright 2023. All Rights Reserved</p>
           </Col>
           </Row>
       </Container>
-      {/* amanha é hoje */}
+      
     </footer >
 
   ) 

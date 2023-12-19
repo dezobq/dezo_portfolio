@@ -1,6 +1,6 @@
 import {Col} from 'react-bootstrap'
 
-const ProjectCard = ({ title, description, imgUrl}) => {
+const ProjectCard = ({ title, description, imgUrl, link}) => {
   return (
     <Col size={12} sm={6} md={4}>
     <div className="proj-imgbx">
@@ -10,6 +10,7 @@ const ProjectCard = ({ title, description, imgUrl}) => {
         <span>{description}</span>
       </div>
     </div>
+   
   </Col>
   )
 }

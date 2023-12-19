@@ -16,10 +16,10 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-      <Newsletter />
       <Footer />
 
     </div>
+    
   );
 }
 
