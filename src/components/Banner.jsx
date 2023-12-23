@@ -32,7 +32,6 @@ const Banner = () => {
                     />
                   </h1>
 
-                  
                   <p>
                     With an unwavering passion for innovation and technology, I
                     consistently seek to explore new solutions and enhance my
@@ -49,13 +48,15 @@ const Banner = () => {
 
                   <button
                     onClick={() => {
-                      const connectSection = document.getElementById('connect');
-                      if (connectSection) {
-                        connectSection.scrollIntoView({ behavior: 'smooth' });
-                      }
+                      const pdfUrl =
+                        'https://drive.google.com/file/d/1r4x3lPKyoqLoWblZrvGlpDLPde6QLBSS/view?usp=sharing'
+                      const windowFeatures =
+                        'toolbar=no, menubar=no, width=600, height=800, resizable=yes, top=100, left=100'
+
+                      window.open(pdfUrl, '_blank', windowFeatures)
                     }}
                   >
-                    Contact Me <ArrowRightCircle size={25} />
+                    My Resume <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}

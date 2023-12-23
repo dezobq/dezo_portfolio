@@ -88,7 +88,7 @@ const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
+              <h2>Tech Stack</h2>
               <h3>
                 A full-stack web developer with passion for the newest techs.
               </h3>
